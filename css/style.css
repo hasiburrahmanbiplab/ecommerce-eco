@@ -107,8 +107,6 @@ header p{
     font-size: 14px;
     font-family: var(--font-family);
     font-weight: 400;
- }
- .category .card .overly button:hover{
     box-shadow: 0 0 10px black;
  }
 .category .card .overly{
@@ -125,3 +123,20 @@ header p{
     transition: ease-in-out 0.3s;
 }
 /* hero section End */
+/* product part start */
+#product-section{
+    background: var(--green);
+}
+.product-heading{
+    max-width: 575px;
+}
+.product-heading h2{
+    font-size: 30px;
+    font-family: var(--font-family);
+}
+.product-heading p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: #E6E6E6;
+}
+/* product part End */
