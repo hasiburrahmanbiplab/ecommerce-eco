@@ -1,0 +1,51 @@
+@media (min-width:1400px) {
+    .banner-text {
+        max-width: 500px;
+    }   
+    .banner-text h1 {
+        font-size: 65px;
+    }
+    .banner-text p {
+        font-size: 16px;
+        width: 60%;
+    }
+    .category .card .card-body h5 {
+        font-size: 30px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.99px) {
+    .banner-text {
+        max-width: 500px;
+    }   
+    .banner-text h1 {
+        font-size: 65px;
+    }
+    .banner-text p {
+        font-size: 16px;
+        width: 60%;
+    }
+    .category .card .card-body h5 {
+        font-size: 30px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.99px) {
+
+}
+@media (min-width:768px) and (max-width:991.99px) {
+    
+}
+@media (min-width:576px) and (max-width:767.99px) {
+    
+}
+@media (max-width:575px) {
+    .banner-text {
+        max-width: 550px;
+    }
+    .banner-text h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+    .banner-text p{
+        width: 100%;
+    }
+}

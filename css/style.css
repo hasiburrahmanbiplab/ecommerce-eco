@@ -1,0 +1,127 @@
+:root{
+    --green:#658C4A;
+    --white:#ffffff;
+    --secondary:#E7CEC0;
+    --text-color:#666666;
+    --font-family: 'Roboto', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin-bottom: 0;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.w-100{
+    width: 100%;
+}
+/* hero section start */
+header{
+    background: var(--green);
+}
+header p{
+    font-size: 14px;
+    font-family: var(--font-family);
+}
+.header-search input::placeholder{
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--text-color);
+}
+.navbar-toggler:focus{
+   box-shadow: none;
+}
+.main-navbar .navbar-brand input::placeholder{
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--text-color);
+}
+.main-navbar .main-nav .nav-link{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+.main-navbar .main-nav .nav-link:hover{
+    color: var(--green);
+}
+.banner-text{
+    max-width: 320px;
+}
+ .banner-text h1{
+    font-size: 45px;
+    font-family: var(--font-family);
+ }
+ .banner-text p{
+    font-size: 14px;
+    font-family: var(--font-family); 
+ }
+ .common-btn a{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--white);
+    width: 100px;
+    height: 35px;
+    background: var(--green);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .common-btn a:hover{
+    box-shadow: 0 0 10px green;
+ }
+ .category .card .card-body h5{
+    font-size: 25px;
+    font-family: var(--font-family);
+    color: var(--green);
+ }
+ .category .card .overly button{
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+ }
+ .category .card .overly button:hover{
+    box-shadow: 0 0 10px black;
+ }
+.category .card .overly{
+    visibility: hidden;
+    opacity: 0;
+    bottom: -35px;
+    left: 0;
+    transition: ease-in-out 0.3s;
+}
+.category .card:hover .overly{
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+    transition: ease-in-out 0.3s;
+}
+/* hero section End */
