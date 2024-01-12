@@ -157,3 +157,62 @@ header p{
     font-size: 14px;
 }
 /* product part End */
+/* arrival part start */
+#arrival-section{
+    background: var(--white);
+}
+.arrival-heading h2{
+    font-family: var(--font-family);
+    font-size: 30px;
+}
+.arrival-heading p{
+    font-size: 14px;
+    font-family: var(--font-family);
+}
+.arrival-main .card{
+    margin: 0 10px;
+   
+}
+.arrival-main .card .card-body h5{
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.arrival-main .card .card-body p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: var(--green);
+}
+.arrival-main .arrival-slider{
+    position: relative;
+}
+.arrival-slider .prev-arrow{
+    background: black;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 20px;
+    z-index: 1000;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    color: var(--white);
+}
+.arrival-slider .next-arrow{
+    background: black;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 20px;
+    z-index: 1000;
+    position: absolute;
+    bottom: -50px;
+    right: 50px;
+    color: var(--white);
+}
+/* arrival part End */
