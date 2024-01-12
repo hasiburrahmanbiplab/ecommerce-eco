@@ -137,6 +137,23 @@ header p{
 .product-heading p{
     font-size: 14px;
     font-family: var(--font-family);
-    color: #E6E6E6;
+    color: #e91010;
+}
+.product-image{
+    background: var(--green);
+}
+.product-image .card .card-body{
+    background: var(--green);
+}
+.product-image .card{
+    background: var(--green);
+}
+.product-image .card .card-body h5{
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.product-image .card .card-body p{
+    font-family: var(--font-family);
+    font-size: 14px;
 }
 /* product part End */
