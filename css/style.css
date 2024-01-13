@@ -249,3 +249,102 @@ header p{
     height: auto;
 }
 /* commitment part End */
+/* service part start */
+#service-section{
+    background: var(--white);
+}
+.service-heading{
+    max-width: 320px;
+}
+.service-heading h2{
+    font-size: 30px;
+    font-family: var(--font-family);
+    color: var(--green);
+    position: relative;
+    z-index: 1;
+}
+.service-heading h2::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: url(../image/vector-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: -1;
+}
+.service-item .card .icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.service-item .card .card-body h5{
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.service-item .card .card-body p{
+    width:100%;
+    font-size: 14px;
+    font-family: var(--font-family);
+}
+/* service part End */
+/* exist part start */
+
+.exist-content{
+    background: var(--green);
+}
+.exist-content .exist-text{
+    background: var(--secondary);
+}
+.exist-text h5{
+    font-size: 25px;
+    font-family: var(--font-family);
+    color: var(--green);
+}
+.company-logo{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.company-logo .dots{
+    max-width: 90px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    z-index: -1;
+}
+.company-logo .dots img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.company-logo .line{
+    max-width: 300px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    z-index: -1;
+}
+.company-logo .line img{
+    width: 100%;
+    height: 100%;
+}
+.company-logo .overly{
+   
+}
+.company-logo .overly .c-logo{
+    width: 200px;
+    height: 50px;
+}
+.company-logo .overly .c-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* exist part End */

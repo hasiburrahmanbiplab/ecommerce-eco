@@ -12,6 +12,10 @@
     .category .card .card-body h5 {
         font-size: 30px;
     }
+    /* service part */
+    .service-item .card .card-body p{
+        width: 80%;
+    }
 }
 @media (min-width:1200px) and (max-width:1399.99px) {
     .banner-text {
@@ -27,12 +31,18 @@
     .category .card .card-body h5 {
         font-size: 30px;
     }
+    /* service part */
+    .service-item .card .card-body p{
+        width: 80%;
+    }
 }
 @media (min-width:992px) and (max-width:1199.99px) {
 
 }
 @media (min-width:768px) and (max-width:991.99px) {
-    
+    .service-item .card .card-body p{
+        width: 80%;
+    }
 }
 @media (min-width:576px) and (max-width:767.99px) {
     
@@ -48,4 +58,9 @@
     .banner-text p{
         width: 100%;
     }
+    /* service part */
+     .service-content .service-item{
+        max-width: 310px;
+        margin: 0 auto;
+     }
 }
