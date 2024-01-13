@@ -196,9 +196,15 @@ header p{
     border-radius: 20px;
     z-index: 1000;
     position: absolute;
-    bottom: -50px;
-    right: 0;
+    top: -60px;
+    right: 30px;
     color: var(--white);
+}
+.arrival-slider .prev-arrow:hover{
+    box-shadow: 0 0 10px black;
+}
+.arrival-slider .next-arrow:hover{
+    box-shadow: 0 0 10px black;
 }
 .arrival-slider .next-arrow{
     background: black;
@@ -211,8 +217,35 @@ header p{
     border-radius: 20px;
     z-index: 1000;
     position: absolute;
-    bottom: -50px;
-    right: 50px;
+    top: -60px;
+    right: 90px;
     color: var(--white);
 }
 /* arrival part End */
+/* commitment part start */
+#commitment-section{
+    background: url(../image/commitment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#commitment-section .overly{
+    background: #668c4abe;
+    padding: 100px 0;
+}
+.commitment-text{
+    max-width: 800px;
+}
+.commitment-text h4{
+    width: 100%;
+    font-size: 22px;
+    font-family: var(--font-family);
+}
+.commitment-text .icon{
+    max-width: 450px;
+}
+.commitment-text .icon img{
+    width: 100%;
+    height: auto;
+}
+/* commitment part End */
