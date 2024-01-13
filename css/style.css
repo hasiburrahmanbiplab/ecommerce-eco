@@ -186,7 +186,7 @@ header p{
     position: relative;
 }
 .arrival-slider .prev-arrow{
-    background: black;
+    background: var(--green);
     width: 40px;
     height: 40px;
     display: flex !important;
@@ -207,7 +207,7 @@ header p{
     box-shadow: 0 0 10px black;
 }
 .arrival-slider .next-arrow{
-    background: black;
+    background:var(--green);
     width: 40px;
     height: 40px;
     display: flex !important;
@@ -293,22 +293,37 @@ header p{
 }
 /* service part End */
 /* exist part start */
+#exist-section{
+    background: var(--secondary);
+}
 
 .exist-content{
     background: var(--green);
 }
-.exist-content .exist-text{
-    background: var(--secondary);
+ .exist-content .exist-text{
+   background: var(--secondary);
 }
 .exist-text h5{
     font-size: 25px;
     font-family: var(--font-family);
     color: var(--green);
+    line-height: 35px;
 }
 .company-logo{
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
+.company-logo::after{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: var(--secondary);
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
 }
 .company-logo .dots{
     max-width: 90px;
@@ -324,7 +339,7 @@ header p{
     object-fit: contain;
 }
 .company-logo .line{
-    max-width: 300px;
+    max-width: 280px;
     height: 150px;
     position: absolute;
     bottom: 0;
@@ -332,14 +347,11 @@ header p{
     z-index: -1;
 }
 .company-logo .line img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
-.company-logo .overly{
-   
-}
 .company-logo .overly .c-logo{
-    width: 200px;
+    max-width: 200px;
     height: 50px;
 }
 .company-logo .overly .c-logo img{
@@ -348,3 +360,75 @@ header p{
     object-fit: cover;
 }
 /* exist part End */
+/* subscribe part start */
+#subscribe-section{
+    background: url(../image/subscribe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.newsletter{
+    max-width: 400px;
+    margin-top: 150px;
+}
+.newsletter h5{
+    font-family: var(--font-family);
+}
+.newsletter p{
+    font-size: 14px;
+    font-family: var(--font-family);
+}
+.newsletter .email input::placeholder{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--text-color);
+}
+/* subscribe part End */
+/* footer part start */
+footer{
+    background-color: var(--white);
+}
+.footer-bedge a{
+    width: 100px;
+    height: 100px;
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.footer-content h6{
+    font-size: 16px;
+    color: var(--green);
+}
+.footer-content ul li{
+    display: block;
+}
+.footer-content ul li a{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--text-color);
+}
+.footer-content ul li a:hover {
+    color: var(--green);
+}
+.payment ul li{
+    display: inline-block;
+}
+.copyright p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--text-color);
+}
+.copyright a{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight:400;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid var(--text-color);
+}
+/* footer part End */
+

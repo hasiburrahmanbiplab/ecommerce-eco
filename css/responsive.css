@@ -63,4 +63,10 @@
         max-width: 310px;
         margin: 0 auto;
      }
+     .arrival-slider .prev-arrow{
+        top: 20px;
+     }
+     .arrival-slider .next-arrow{
+        top: 20px;
+     }
 }
